@@ -123,12 +123,12 @@
   };
   function redirectAfterDelay(url, delay) {
   setTimeout(function() {
-  window.location.href = 'index2.html';
+  window.location.href = url;
   }, delay);
   }
   // Call this function when you want to start the redirect countdown
   function initiateRedirect() {
-  const targetUrl = "https://tellonym.me/mohammed.oskar"; // Replace with your target URL
+  const targetUrl = "index2.html"; // Replace with your target URL
   const delay = 3000; // 3000 milliseconds = 3 seconds
   redirectAfterDelay(targetUrl, delay);
   };
